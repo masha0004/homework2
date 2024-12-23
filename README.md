@@ -8,19 +8,6 @@
 - Построение графа зависимостей коммитов.
 - Генерация PlantUML-кода для последующего визуального представления.
 
----
-### Структура проекта:
-```css
-homework2/
-├── src/
-│   └── main.py          # Основной файл для запуска программы
-├── config/
-│   └── config.yaml      # Конфигурационный файл
-│   ├── output.puml
-│   └── plantuml.jar 
-└── README.md            # Документация
-
-```
 ## 2. Функции и настройки
 
 ### Основные функции
@@ -44,7 +31,7 @@ homework2/
 Настройки задаются в файле `config.yaml`. Пример структуры:
 ```yaml
 visualization_tool_path: "../config/plantuml.jar"
-repository_path: "D:/Users/rashi/GitHub/repository/test_repo"
+repository_path: "D:/Users/mariabal/GitHub/repository/test_repo"
 output_file_path: "../config/output.puml"
 tag_name: "v1.1.0"    # Путь к файлу вывода графа
 ```
